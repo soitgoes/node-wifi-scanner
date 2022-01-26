@@ -21,6 +21,13 @@ function initTools(callback) {
   // the error into the result and check it later on.
   async.parallel([
       function (cb) {
+        exec(locationHelper.detector, function (err) {
+            cb(null, {err: err, scanner: locationHelper}
+            )
+          }
+        );
+      },
+      function (cb) {
         exec(airport.detector, function (err) {
             cb(null, {err: err, scanner: airport}
             )
@@ -30,13 +37,6 @@ function initTools(callback) {
       function (cb) {
         exec(iwlist.detector, function (err) {
             cb(null, {err: err, scanner: iwlist}
-            )
-          }
-        );
-      },
-      function (cb) {
-        exec(locationHelper.detector, function (err) {
-            cb(null, {err: err, scanner: locationHelper}
             )
           }
         );
