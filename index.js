@@ -10,6 +10,7 @@ const _       = require('lodash');
 const airport = require('./lib/airport');
 const iwlist  = require('./lib/iwlist');
 const netsh   = require('./lib/netsh');
+const locationHelper = require('./lib/location_helper')
 
 let scanner;
 
@@ -28,6 +29,13 @@ function initTools(callback) {
       },
       function (cb) {
         exec(iwlist.detector, function (err) {
+            cb(null, {err: err, scanner: iwlist}
+            )
+          }
+        );
+      },
+      function (cb) {
+        exec(locationHelper.detector, function (err) {
             cb(null, {err: err, scanner: iwlist}
             )
           }

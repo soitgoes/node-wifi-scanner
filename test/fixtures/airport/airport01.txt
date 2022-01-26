@@ -1,52 +1,37 @@
-<CWNetwork: 0x600001168c40> [ssid=(null), bssid=9c:8c:d8:2d:02:d2, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x6000011798c0> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168e20> [ssid=Guest, bssid=9c:8c:d8:2d:02:d0, security=WPA2 Personal, rssi=-88, channel=<CWChannel: 0x60000116c000> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001166150> [ssid=(null), bssid=f4:2e:7f:ec:73:a6, security=WPA2 Personal, rssi=-60, channel=<CWChannel: 0x60000116c030> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011664e0> [ssid=MySpectrumWiFiD9-2G, bssid=a8:97:cd:72:2c:da, security=WPA2 Personal, rssi=-84, channel=<CWChannel: 0x60000116c060> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168810> [ssid=(null), bssid=f4:2e:7f:ec:ac:02, security=WPA2 Personal, rssi=-88, channel=<CWChannel: 0x6000011798f0> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168870> [ssid=(null), bssid=9c:8c:d8:2d:02:c6, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x60000116c090> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011688d0> [ssid=SimbaGuest, bssid=9a:3b:ad:aa:64:03, security=WPA2 Personal, rssi=-87, channel=<CWChannel: 0x60000116c0c0> [channelNumber=4(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168930> [ssid=Vestavia, bssid=f4:2e:7f:ec:73:b4, security=WPA/WPA2 Enterprise, rssi=-65, channel=<CWChannel: 0x60000116c0f0> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168bd0> [ssid=(null), bssid=9c:8c:d8:2d:02:d3, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x60000116c120> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168a90> [ssid=(null), bssid=f4:2e:7f:ec:73:b5, security=WPA2 Personal, rssi=-65, channel=<CWChannel: 0x60000116c150> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168b00> [ssid=Guest, bssid=f4:2e:7f:ec:73:b0, security=WPA2 Personal, rssi=-65, channel=<CWChannel: 0x60000116c180> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168b70> [ssid=(null), bssid=f4:2e:7f:ec:ac:03, security=WPA2 Personal, rssi=-88, channel=<CWChannel: 0x600001169630> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001166560> [ssid=Guest, bssid=f4:2e:7f:ec:73:a0, security=WPA2 Personal, rssi=-61, channel=<CWChannel: 0x600001179920> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011665c0> [ssid=NVC_C6D35, bssid=ac:83:f3:a1:b1:ca, security=Open, rssi=-79, channel=<CWChannel: 0x600001179950> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168cb0> [ssid=DIRECT-1D-HP OfficeJet Pro 8210, bssid=b2:5c:da:b0:b2:1d, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x600001179980> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168d10> [ssid=Vestavia, bssid=9c:8c:d8:2d:02:c4, security=WPA/WPA2 Enterprise, rssi=-82, channel=<CWChannel: 0x6000011799b0> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168db0> [ssid=(null), bssid=f4:2e:7f:ec:73:b6, security=WPA2 Personal, rssi=-65, channel=<CWChannel: 0x6000011799e0> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001166600> [ssid=(null), bssid=9c:8c:d8:2d:02:c5, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x600001179a10> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168e90> [ssid=Vestavia, bssid=f4:2e:7f:eb:a6:e4, security=WPA/WPA2 Enterprise, rssi=-89, channel=<CWChannel: 0x600001179a40> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168f30> [ssid=(null), bssid=9c:8c:d8:2d:02:d5, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x600001179a70> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001168fa0> [ssid=(null), bssid=f4:2e:7f:ec:ac:05, security=WPA2 Personal, rssi=-91, channel=<CWChannel: 0x600001179aa0> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169000> [ssid=Simba, bssid=92:3b:ad:aa:94:eb, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179ad0> [channelNumber=4(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169060> [ssid=(null), bssid=9c:8c:d8:2d:02:d6, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179b00> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x6000011690d0> [ssid=CIA Guest Network, bssid=f0:2f:74:79:0c:01, security=WPA2 Personal, rssi=-91, channel=<CWChannel: 0x600001179b30> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169130> [ssid=CIA Guest Network, bssid=f0:2f:74:d7:b6:a8, security=WPA2 Personal, rssi=-87, channel=<CWChannel: 0x600001179b60> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011691b0> [ssid=(null), bssid=f4:2e:7f:ec:ac:06, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179b90> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169210> [ssid=IT_Allowed, bssid=f4:2e:7f:eb:a6:e1, security=Open, rssi=-90, channel=<CWChannel: 0x600001179bc0> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169230> [ssid=(null), bssid=f4:2e:7f:ec:73:a2, security=WPA2 Personal, rssi=-61, channel=<CWChannel: 0x600001179bf0> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169290> [ssid=Guest, bssid=f4:2e:7f:ec:ac:00, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x600001179c20> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011692f0> [ssid=(null), bssid=f4:2e:7f:eb:a6:e2, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179c50> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169350> [ssid=(null), bssid=f4:2e:7f:ec:73:a3, security=WPA2 Personal, rssi=-61, channel=<CWChannel: 0x600001179c80> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011693b0> [ssid=IT_Allowed, bssid=f4:2e:7f:ec:73:b1, security=Open, rssi=-65, channel=<CWChannel: 0x600001179cb0> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x6000011693e0> [ssid=Club 1401, bssid=50:c7:bf:f6:1b:7b, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x600001179ce0> [channelNumber=8(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169440> [ssid=(null), bssid=f4:2e:7f:eb:a6:e3, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179d10> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011694a0> [ssid=DIRECT-99-HP OfficeJet Pro 8210, bssid=b2:5c:da:b2:2c:99, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x600001179d40> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169500> [ssid=Vestavia, bssid=f4:2e:7f:ec:73:a4, security=WPA/WPA2 Enterprise, rssi=-60, channel=<CWChannel: 0x600001179d70> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011695a0> [ssid=IT_Allowed, bssid=f4:2e:7f:ec:73:a1, security=Open, rssi=-61, channel=<CWChannel: 0x600001179da0> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011695c0> [ssid=(null), bssid=9c:8c:d8:2d:02:c2, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x600001179dd0> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001169620> [ssid=(null), bssid=9c:8c:d8:2d:02:c3, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x600001179e00> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001165e90> [ssid=(null), bssid=f4:2e:7f:ec:73:a5, security=WPA2 Personal, rssi=-61, channel=<CWChannel: 0x600001179e30> [channelNumber=11(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001165ef0> [ssid=Guest, bssid=9c:8c:d8:2d:02:c0, security=WPA2 Personal, rssi=-82, channel=<CWChannel: 0x600001179e60> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168710> [ssid=IT_Allowed, bssid=9c:8c:d8:2d:02:d1, security=Open, rssi=-89, channel=<CWChannel: 0x600001179e90> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001165f50> [ssid=(null), bssid=f4:2e:7f:ec:73:b2, security=WPA2 Personal, rssi=-65, channel=<CWChannel: 0x600001179ec0> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001165fc0> [ssid=SpectrumSetup-68, bssid=34:53:d2:1b:c3:6e, security=WPA2 Personal, rssi=-94, channel=<CWChannel: 0x600001179ef0> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001166020> [ssid=(null), bssid=f4:2e:7f:eb:a6:e5, security=WPA2 Personal, rssi=-89, channel=<CWChannel: 0x600001179f20> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001166080> [ssid=IT_Allowed, bssid=9c:8c:d8:2d:02:c1, security=Open, rssi=-82, channel=<CWChannel: 0x600001179f50> [channelNumber=6(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011660a0> [ssid=Vestavia, bssid=f4:2e:7f:ec:ac:04, security=WPA/WPA2 Enterprise, rssi=-87, channel=<CWChannel: 0x600001179f80> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168780> [ssid=(null), bssid=f4:2e:7f:ec:73:b3, security=WPA2 Personal, rssi=-65, channel=<CWChannel: 0x600001179fb0> [channelNumber=52(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
-<CWNetwork: 0x600001166170> [ssid=IT_Allowed, bssid=f4:2e:7f:ec:ac:01, security=Open, rssi=-88, channel=<CWChannel: 0x600001179fe0> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168420> [ssid=Guest, bssid=f4:2e:7f:eb:a6:e0, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x60000117a010> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x600001168720> [ssid=(null), bssid=f4:2e:7f:eb:a6:e6, security=WPA2 Personal, rssi=-90, channel=<CWChannel: 0x60000117a040> [channelNumber=1(2GHz), channelWidth={20MHz}], ibss=0]
-<CWNetwork: 0x6000011689e0> [ssid=Vestavia, bssid=9c:8c:d8:2d:02:d4, security=WPA/WPA2 Enterprise, rssi=-90, channel=<CWChannel: 0x60000117a070> [channelNumber=100(5GHz), channelWidth={40MHz(+1)}, DFS], ibss=0]
+                            SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
+                         OurTest                   -70  112     Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:35:1a:90:56:04 -70  112     Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:35:1a:90:56:09 -70  112     Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:35:1a:90:56:0f -70  112     Y  CH WPA2(PSK/AES/AES) 
+                         ExoNet1 00:35:1a:90:56:0a -70  112     Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:35:1a:6f:0f:43 -78  40      Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:35:1a:6f:0f:44 -78  40      Y  CH WPA2(PSK/AES/AES) 
+                         ExoNet1 00:35:1a:6f:0f:4a -77  40      Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:35:1a:6f:0f:49 -78  40      Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:35:1a:6f:0f:4f -78  40      Y  CH WPA2(PSK/AES/AES) 
+                         ExoNet1 00:f2:8b:8f:58:7a -75  36      Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:f2:8b:8f:58:73 -75  36      Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:f2:8b:8f:58:74 -75  36      Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:f2:8b:8f:58:79 -75  36      Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:f2:8b:8f:58:7f -75  36      Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:f2:8b:8f:58:7b -78  11      Y  CH WPA2(PSK/AES/AES)
+                         ExoNet1 00:35:1a:5b:45:b5 -78  11      Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:35:1a:5b:45:bc -79  11      Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:35:1a:5b:45:bb -78  11      Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:35:1a:5b:45:b6 -78  11      Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:35:1a:5b:45:b0 -78  11      Y  CH WPA2(PSK/AES/AES) 
+                         ExoNet1 00:f2:8b:8f:58:75 -77  11      Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:f2:8b:8f:58:7c -78  11      Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:f2:8b:8f:58:76 -78  11      Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:f2:8b:8f:58:70 -78  11      Y  CH WPA2(PSK/AES/AES) 
+                   TEST Training 10:bd:18:ab:4d:8f -71  6       N  -- WPA(PSK/AES,TKIP/TKIP) 
+                         ExoNet1 00:35:1a:6f:0f:45 -77  6       Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:35:1a:6f:0f:4c -77  6       Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:35:1a:6f:0f:4b -77  6       Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:35:1a:6f:0f:46 -77  6       Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:35:1a:6f:0f:40 -77  6       Y  CH WPA2(PSK/AES/AES) 
+                         ExoNet1 00:35:1a:90:56:05 -67  1       Y  CH WPA2(PSK/AES/AES) 
+                         OurTest 00:35:1a:90:56:0c -67  1       Y  CH WPA2(PSK/AES/AES) 
+                          OurDev 00:35:1a:90:56:0b -67  1       Y  CH WPA2(PSK/AES/AES) 
+                         PDANet1 00:35:1a:90:56:06 -67  1       Y  CH WPA2(PSK/AES/AES) 
+                       TEST-Wifi 00:35:1a:90:56:00 -67  1       Y  CH WPA2(PSK/AES/AES)
