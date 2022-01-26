@@ -36,7 +36,7 @@ function initTools(callback) {
       },
       function (cb) {
         exec(locationHelper.detector, function (err) {
-            cb(null, {err: err, scanner: iwlist}
+            cb(null, {err: err, scanner: locationHelper}
             )
           }
         );
