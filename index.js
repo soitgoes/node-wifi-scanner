@@ -58,7 +58,7 @@ function initTools(callback) {
       if (res) {
         return callback(null, res.scanner);
       }
-      callback(new Error('No scanner found'));
+      //callback(new Error('No scanner found'));
     }
   );
 }
