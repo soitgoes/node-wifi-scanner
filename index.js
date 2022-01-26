@@ -11,6 +11,9 @@ const airport = require('./lib/airport');
 const iwlist  = require('./lib/iwlist');
 const netsh   = require('./lib/netsh');
 const locationHelper = require('./lib/location_helper')
+var os = require('os');
+os.platform(); // 'darwin'
+const release = os.release(); //'10.8.0'
 
 let scanner;
 
@@ -19,48 +22,12 @@ function initTools(callback) {
 
   // When a command is not found, an error is issued and async would finish. Therefore we pack
   // the error into the result and check it later on.
-  async.parallel([
-      function (cb) {
-        exec(locationHelper.detector, function (err) {
-            cb(null, {err: err, scanner: locationHelper}
-            )
-          }
-        );
-      },
-      function (cb) {
-        exec(airport.detector, function (err) {
-            cb(null, {err: err, scanner: airport}
-            )
-          }
-        );
-      },
-      function (cb) {
-        exec(iwlist.detector, function (err) {
-            cb(null, {err: err, scanner: iwlist}
-            )
-          }
-        );
-      },
-      function (cb) {
-        exec(netsh.detector, function (err) {
-            cb(null, {err: err, scanner: netsh}
-            )
-          }
-        );
-      }
-    ],
-    function (err, results) {
-      let res = _.find(results,
-        function (f) {
-          return !f.err
-        });
-
-      if (res) {
-        return callback(null, res.scanner);
-      }
-      //callback(new Error('No scanner found'));
+    if (release <  '21.0.0'){
+        callback(null, airport)
+    }else{
+        callback(null, locationHelper)
     }
-  );
+  // return callback(null, res.scanner);
 }
 
 /**
