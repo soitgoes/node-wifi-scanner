@@ -22,7 +22,8 @@ function initTools(callback) {
 
   // When a command is not found, an error is issued and async would finish. Therefore we pack
   // the error into the result and check it later on.
-    if (release <  '21.0.0'){
+    var majorRelease = parseInt(release.split('.')[0])
+    if (majorRelease <  21){
         callback(null, airport)
     }else{
         callback(null, locationHelper)
