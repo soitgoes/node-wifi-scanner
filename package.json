@@ -1,6 +1,6 @@
 {
   "name": "node-wifi-scanner",
-  "version": "1.1.2np",
+  "version": "1.1.25",
   "description": "node.js module for WiFi network detection",
   "main": "index.js",
   "keywords": [
@@ -35,12 +35,12 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "async": "3.1.0",
-    "lodash": "4.17.15"
+    "async": "^3.2.4",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-bump": "0.8.0",
-    "mocha": "6.2.0"
+    "mocha": "^9.2.1"
   }
 }
