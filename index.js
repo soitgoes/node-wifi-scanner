@@ -23,10 +23,12 @@ function initTools(callback) {
   // When a command is not found, an error is issued and async would finish. Therefore we pack
   // the error into the result and check it later on.
     var majorRelease = parseInt(release.split('.')[0])
-    if (majorRelease <  21){
+    IsIntel((err, isIntel) => {
+      if (isIntel){
         callback(null, airport)
-    }else{
+      }else{
         callback(null, locationHelper)
+      }
     }
   // return callback(null, res.scanner);
 }
@@ -43,6 +45,16 @@ function scanNetworks(callback) {
     }
     scanner.parseOutput(stdout, callback);
   });
+}
+
+function isIntel(callback){
+  exec("sysctl -a | grep brand", function(err, stdout) {
+    if (err){
+      callback(err, false);
+      return;
+    }
+    callback(stdout.indexOf("Intel") > -1);
+  }
 }
 
 module.exports = {
